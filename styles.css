@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: cornflowerblue;
+    text-align: left;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text h1 {
+    color: #f4f4f4;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.header-text p {
+    color: #f4f4f4;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    padding-bottom: 5px;
+}
+
+.project h3, .certificates h3 {
+    margin: 5px 0;
+}
+
+.certificates p {
+    margin: 0; /* Removes default margin for paragraphs */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-button {
+    background-color: #0077b5; /* LinkedIn's brand color */
+}
+
+.github-button {
+    background-color: #333; /* GitHub's brand color */
+}
+
+.facebook-button {
+    background-color: #3b5998; /* Facebook's brand color */
+}
+
+.instagram-button {
+    background-color: #e4405f; /* Instagram's brand color */
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
+a{
+    color: #fff;
+}
